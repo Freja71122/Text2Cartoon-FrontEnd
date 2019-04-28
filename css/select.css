@@ -20,7 +20,7 @@
 }
 
 .cards::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 .cards::-webkit-scrollbar-thumb {
   background: #9B9B9B;
@@ -48,6 +48,16 @@
 .card-content {
   position: relative;
   padding: 2rem;
+  overflow: auto;
+  height: 100%;
+}
+
+.card-content::-webkit-scrollbar {
+  width: 0px;
+}
+.card-content::-webkit-scrollbar-thumb {
+  background: #9B9B9B;
+  border-radius: 10px;
 }
 .label {
   display: block;
@@ -57,7 +67,7 @@
 }
 .title {
   display: block;
-  margin: 1em 0;
+  margin: -0.5em 0 0.5em 0;
   font-size: 1.125rem;
   font-weight: 600;
 }

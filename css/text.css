@@ -8,7 +8,7 @@
 /*}*/
 
 #p5 {
-  background: linear-gradient(135deg, #25303E, #25303E);
+  background: linear-gradient(135deg, #7F8C8D, #7F8C8D);
   color: #c7c7d1;
   font: 400 20px/1.625 "Source Sans Pro", sans-serif;
   padding: 2em;
@@ -35,7 +35,7 @@
   padding-right: 4px;
   overflow: hidden;
   position: relative;
-  top: 90px;
+  top: 50px;
   float: left;
   min-width: 500px;
 }
@@ -43,14 +43,14 @@
 .window_pic {
   background: #222222;
   border-radius: 0.5em;
-  box-shadow: 0 0.75em 3em #311a50;
+  box-shadow: 0 0.75em 3em #222222;
   margin: 2em 2em 2em 2em;
   max-width: 20em;
   min-height: 20em;
   padding-right: 4px;
   overflow: hidden;
   position: relative;
-  top: 90px;
+  top: 50px;
   float: left;
   min-width: 500px;
   background: url("test.png");
