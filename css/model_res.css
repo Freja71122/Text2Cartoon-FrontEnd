@@ -1,0 +1,77 @@
+/*@import url(https://fonts.googleapis.com/css?family=Indie+Flower);*/
+
+.model_res_h1{
+    margin: .97em 80px;
+}
+.model_res {
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+    margin: 0;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.galleryMain {
+    border: 4px solid rgba(255, 255, 255, 1);
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.25);
+    cursor: zoom-in;
+    display: inline-block;
+    height: 280px;
+    width: 360px;
+    margin: 10px 10px;
+    position: relative;
+    left: -40px;
+}
+
+.galleryMain img {
+    height: 100%;
+    width: 100%;
+    /*margin-bottom: -6px;*/
+}
+
+.galleryTitle {
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 1);
+    height: 0px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all .5s;
+}
+
+.galleryMain:hover .galleryTitle {
+    height: 37px;
+    padding: 15px 0;
+}
+
+.gallery {
+    height: 0; width: 100vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: absolute;
+    right: 0; left: 0;
+    white-space: nowrap;
+}
+
+.galleries {
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.galleryBackground {
+    background: grey;
+    display: inline-block;
+    height: 0; width: 0px;
+    z-index: -1;
+    transition: height 1s;
+}
+
+.gallery img {
+    height: 300px; margin: 50px 25px;
+}
+
+input[type="checkbox"]:checked + br + .galleryMain + .gallery, input[type="checkbox"]:checked + br + .galleryMain + .gallery::before {
+    height: 400px; width: 100vw;
+}

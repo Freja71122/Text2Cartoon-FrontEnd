@@ -175,7 +175,7 @@ ul .icon:hover {
  background-repeat: no-repeat;
  transition: all .5s ease-out !important;
 }
-.card {
+.card_home {
  text-align: center;
  width: 500px;
  height: 350px;
