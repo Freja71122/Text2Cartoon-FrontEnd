@@ -8,4 +8,4 @@ User enters a piece of English description text on the left, and a cartoon scene
 Cartoon scene pictures consist of characters, objects, and relationships between characters and objects.
 
 ## Video
-![](./imgs/demo.mp4)
+![./imgs/demo.mp4](./imgs/demo.mp4)
